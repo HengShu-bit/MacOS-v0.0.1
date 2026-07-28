@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""A conservative macOS WeChat multi-instance launcher.
-
-The tool never modifies the original WeChat.app.  It creates independently
-identified, ad-hoc signed copies in the current user's Applications directory.
-"""
-
 from __future__ import annotations
 
 import argparse
